@@ -30,6 +30,9 @@ public class MainActivity extends AppCompatActivity implements makananadapter.On
         listmakanan.add(new makanan("Kue","Rp.12.000.00",R.drawable.kue));
         listmakanan.add(new makanan("Coklat","Rp.15.000.00",R.drawable.coklat));
         listmakanan.add(new makanan("Beng beng","Rp.10.000.00",R.drawable.bengbeng));
+        listmakanan.add(new makanan("Eskrim","Rp.8.000.00",R.drawable.eskrim));
+        listmakanan.add(new makanan("Tiramisu","10.000.00",R.drawable.tiramisi));
+
 
         //memanggil adapter
         rvList.setLayoutManager(new LinearLayoutManager(this));
